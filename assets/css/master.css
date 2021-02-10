@@ -2,7 +2,7 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-.my-c-white {
+.text-white {
   color: #fff;
 }
 
@@ -32,4 +32,13 @@ body {
 /* JUMBOTRON */
 .jumbo {
   background-color: #1ABC9C;
+}
+
+.masthead-avatar {
+  width: 20rem;
+}
+
+/* UTILITY */
+.mt-1 {
+  margin-top: 2rem;
 }
