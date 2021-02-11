@@ -12,9 +12,7 @@ h2 {
   font-weight: 700;
 }
 
-.text-white {
-  color: #fff;
-}
+
 
 /* NAVBAR */
 .navbar {
@@ -52,7 +50,6 @@ h2 {
 
 /* JUMBOTRON */
 .jumbo {
-  background-color: #1ABC9C;
   height: calc(100%-70px);
   margin-top: 70px;
   font-weight: 400;
@@ -91,7 +88,7 @@ h2 {
   align-items: center;
 }
 
-i {
+.fas.fa-star {
   font-size: 23px;
 }
 
@@ -104,6 +101,21 @@ i {
   border-radius: 10px;
 }
 
+/* ABOUT SECTION */
+.btn-xl {
+  padding: 1rem 1.75rem;
+  font-size: 1em;
+}
+
+.btn-outline-light {
+  color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+
+.btn:hover {
+  background-color: white;
+}
+
 /* UTILITY */
 .mt-1 {
   margin-top: 2rem;
@@ -111,6 +123,14 @@ i {
 
 .mb-1 {
   margin-bottom: 2rem;
+}
+
+.bg-green {
+  background-color: #1ABC9C;
+}
+
+.text-white {
+  color: #fff;
 }
 
 /* MEDIA QUERY */
