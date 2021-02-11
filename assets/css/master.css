@@ -113,7 +113,15 @@ h2 {
 }
 
 .btn:hover {
-  background-color: white;
+  background-color: #fff;
+}
+
+/* CONTACT ME SECTION */
+.form-control {
+  border: 0;
+  border-bottom: 1px solid #e9ecef;
+  box-shadow: none;
+  padding-bottom: 20px;
 }
 
 /* UTILITY */
