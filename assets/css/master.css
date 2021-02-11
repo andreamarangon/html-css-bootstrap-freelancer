@@ -2,6 +2,12 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+h1 {
+  font-weight: 700;
+  /* line-height: 44px;
+  font-size: 44px; */
+}
+
 .text-white {
   color: #fff;
 }
@@ -11,6 +17,7 @@ body {
   margin-bottom: 0;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  font-weight: 700;
 }
 
 .bg-secondary {
@@ -23,15 +30,28 @@ body {
 
 .navbar-default {
   border: none;
+  border-radius: 0;
 }
 
 .navbar-default .navbar-nav>li>a {
   color: #fff;
 }
 
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+  color: #1abc9c;
+}
+
+.navbar-default .navbar-collapse {
+  border-color: #2c3e50;
+}
+
 /* JUMBOTRON */
 .jumbo {
   background-color: #1ABC9C;
+  height: calc(100%-70px);
+  margin-top: 70px;
+  font-weight: 400;
 }
 
 .masthead-avatar {
