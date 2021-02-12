@@ -1,20 +1,24 @@
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Lato" , sans-serif;
   font-weight: 500;
+  font-size: 16px;
 }
 
 h1 {
   font-size: 29px;
   font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h2 {
   font-size: 20px;
   font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h5 {
   text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* NAVBAR */
@@ -23,6 +27,7 @@ h5 {
   padding-top: 1rem;
   padding-bottom: 1rem;
   font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .bg-secondary {
@@ -135,7 +140,10 @@ h5 {
   border-radius: 0;
   padding-right: 0;
   padding-left: 0;
-  color: black;
+}
+
+.form-control::placeholder {
+  color: #2c3e50;
 }
 
 .my-btn-send {
@@ -154,13 +162,18 @@ h5 {
 /* FOOTER */
 .btn-social {
   border-radius: 100%;
-  width: 4rem;
-  height: 4rem;
-  font-size: 1.5rem;
+  width: 4.5rem;
+  height: 4.5rem;
+  font-size: 1.65rem;
   margin-right: 8px;
   justify-content: center;
   align-items: center;
   display: inline-flex;
+}
+
+.btn-social:hover {
+  background-color: #fff;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
 .text-green {
@@ -173,7 +186,7 @@ h5 {
 }
 
 .copyright {
-  font-size: 10px;
+  font-size: 12px;
 }
 
 /* UTILITY */
@@ -214,6 +227,10 @@ h5 {
     font-size: 34px;
   }
 
+  h5 {
+    font-size: 22px;
+  }
+
   .navbar{
     padding: 20px 0;
   }
@@ -229,6 +246,10 @@ h5 {
 
   .divider-custom .divider-custom-line {
     max-width: 11rem;
+  }
+
+  .resize {
+    font-size: 20px;
   }
 }
 
