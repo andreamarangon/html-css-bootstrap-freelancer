@@ -137,6 +137,16 @@ h5 {
   border-color: #1abc9c;
 }
 
+/* FOOTER */
+.btn-social {
+  border-radius: 100%;
+  width: 3.25rem;
+  height: 3.25rem;
+  font-size: 1.25rem;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+}
 
 /* UTILITY */
 .mt-1 {
