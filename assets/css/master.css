@@ -1,5 +1,6 @@
 body {
   font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
 }
 
 h1 {
@@ -13,7 +14,6 @@ h2 {
 }
 
 h5 {
-  font-weight: 700;
   text-transform: uppercase;
 }
 
@@ -140,21 +140,33 @@ h5 {
 /* FOOTER */
 .btn-social {
   border-radius: 100%;
-  width: 3.25rem;
-  height: 3.25rem;
-  font-size: 1.25rem;
+  width: 4rem;
+  height: 4rem;
+  font-size: 1.5rem;
+  margin-right: 8px;
   justify-content: center;
   align-items: center;
   display: inline-flex;
+}
+
+.copyright {
+  font-size: 10px;
 }
 
 /* UTILITY */
 .mt-1 {
   margin-top: 2rem;
 }
+.mt-2 {
+  margin-top: 3rem;
+}
 
 .mb-1 {
   margin-bottom: 2rem;
+}
+
+.mb-2 {
+  margin-bottom: 3rem;
 }
 
 .bg-green {
@@ -163,6 +175,10 @@ h5 {
 
 .text-white {
   color: #fff;
+}
+
+.text-green {
+  color: #1ABC9C;
 }
 
 .bg-blue-2 {
