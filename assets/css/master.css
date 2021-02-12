@@ -12,7 +12,10 @@ h2 {
   font-weight: 700;
 }
 
-
+h5 {
+  font-weight: 700;
+  text-transform: uppercase;
+}
 
 /* NAVBAR */
 .navbar {
@@ -117,12 +120,23 @@ h2 {
 }
 
 /* CONTACT ME SECTION */
-.form-control {
+.form-group .form-control {
   border: 0;
-  border-bottom: 1px solid #e9ecef;
+  border-bottom: 2px solid #e9ecef;
   box-shadow: none;
   padding-bottom: 20px;
+  border-radius: 0;
+  padding-right: 0;
+  padding-left: 0;
+  color: black;
 }
+
+.my-btn-send {
+  color: #fff;
+  background-color: #1abc9c;
+  border-color: #1abc9c;
+}
+
 
 /* UTILITY */
 .mt-1 {
@@ -141,13 +155,30 @@ h2 {
   color: #fff;
 }
 
-/* MEDIA QUERY */
+.bg-blue-2 {
+  background-color: #3A546D;
+}
 
+/* MEDIA QUERY */
 @media all and (min-width: 768px) {
   h1 {
     font-size: 44px;
   }
+
   h2 {
     font-size: 34px;
+  }
+
+  .navbar{
+    padding: 20px 0;
+  }
+
+  .navbar-brand {
+    font-size: 27px;
+  }
+
+  .jumbo {
+    height: calc(100%-90px);
+    margin-top: 90px;
   }
 }
