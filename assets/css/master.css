@@ -108,11 +108,36 @@ h5 {
 /* PORTFOLIO SECTION */
 .thumbnail {
   border: none;
+  position: relative;
 }
 
 .thumbnail img {
   border-radius: 10px;
-  position: relative;
+}
+
+.layover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(26, 188, 156, 0.9);
+  display: none;
+  border-radius: 10px;
+}
+
+.layover i {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate( -50%, -50%);
+  font-size: 50px;
+  color: #fff;
+}
+
+.thumbnail:hover .layover {
+  display: block;
 }
 
 /* ABOUT SECTION */
@@ -158,7 +183,6 @@ h5 {
   background-color: #04A197;
   color: #fff;
 }
-
 
 /* FOOTER */
 .btn-social {
